@@ -46,3 +46,18 @@
 .controlColumn {
 	width: 50%;
 }
+
+@media (max-width: 400px)  {
+	.controlColumn {
+		width: 100%;
+		display: flex;
+		overflow: auto;
+		gap: 16px;
+	}
+	.header {
+		width: 100%;
+	}
+	.description {
+		visibility: hidden;
+	}
+}
