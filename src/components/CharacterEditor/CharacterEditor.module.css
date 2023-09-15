@@ -1,9 +1,20 @@
 .characterEditor {
+	position: relative;
   padding-top: 128px;
-  padding-bottom: 64px;
+  padding-bottom: 64px;  
+}
+
+.perspectiveBar {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	height: 40%;
+	width: 100%;
+	background-color: hsl(195deg, 20%, 86%);
 }
 
 .maxWidthWrapper {
+	position: relative;
 }
 
 .header {
@@ -26,10 +37,9 @@
 
 .characterWrapper {
 	position: fixed;
-	top: 0;
+	top: 128px;
 	right: 0;
-	height: 100%;
-	height: -webkit-fill-available;
+	bottom: 32px;
 	min-height: 500px;
 }
 
